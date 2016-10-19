@@ -1,0 +1,6 @@
+framework module iosvoronoi {
+  umbrella header "iosvoronoi-umbrella.h"
+
+  export *
+  module * { export * }
+}
