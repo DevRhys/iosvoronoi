@@ -15,7 +15,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* BHEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* BHEAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* BHEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* BHEViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +22,18 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		981BDAC41DB7CE77008A6155 /* BHEMapTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDAC31DB7CE77008A6155 /* BHEMapTableViewController.m */; };
+		981BDAC71DB7CF71008A6155 /* BHEVoronoiMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDAC61DB7CF71008A6155 /* BHEVoronoiMap.m */; };
+		981BDACA1DB7D0F8008A6155 /* BHEVoronoiCellTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDAC91DB7D0F8008A6155 /* BHEVoronoiCellTower.m */; };
+		981BDACE1DB7D1FF008A6155 /* BHEUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDACD1DB7D1FF008A6155 /* BHEUtilities.m */; };
+		981BDAD31DB7D36A008A6155 /* MKPolygon+MKPolygon_BHEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDAD21DB7D36A008A6155 /* MKPolygon+MKPolygon_BHEExtensions.m */; };
+		981BDAD71DB7D4E8008A6155 /* BHEVoronoiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDAD61DB7D4E8008A6155 /* BHEVoronoiCell.m */; };
+		981BDADB1DB7D7CB008A6155 /* BHEVoronoiMapStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDADA1DB7D7CB008A6155 /* BHEVoronoiMapStore.m */; };
+		981BDADF1DB7D907008A6155 /* BHEEditMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDADE1DB7D907008A6155 /* BHEEditMapViewController.m */; };
+		981BDAE31DB7DA25008A6155 /* BHECellTowerAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDAE21DB7DA25008A6155 /* BHECellTowerAnnotation.m */; };
+		981BDAE61DB7DBDB008A6155 /* BHEVoronoiMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDAE51DB7DBDB008A6155 /* BHEVoronoiMapViewController.m */; };
+		98DA08D21DB7DEE8009C8422 /* deletebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DA08D01DB7DEE8009C8422 /* deletebutton.png */; };
+		98DA08D31DB7DEE8009C8422 /* selected pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DA08D11DB7DEE8009C8422 /* selected pin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +62,6 @@
 		6003F59B195388D20070C39A /* iosvoronoi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosvoronoi-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* BHEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHEAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* BHEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHEAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* BHEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHEViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* BHEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHEViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* iosvoronoi_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosvoronoi_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,6 +70,29 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		981BDAC21DB7CE77008A6155 /* BHEMapTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEMapTableViewController.h; sourceTree = "<group>"; };
+		981BDAC31DB7CE77008A6155 /* BHEMapTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEMapTableViewController.m; sourceTree = "<group>"; };
+		981BDAC51DB7CF71008A6155 /* BHEVoronoiMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEVoronoiMap.h; sourceTree = "<group>"; };
+		981BDAC61DB7CF71008A6155 /* BHEVoronoiMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEVoronoiMap.m; sourceTree = "<group>"; };
+		981BDAC81DB7D0F8008A6155 /* BHEVoronoiCellTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEVoronoiCellTower.h; sourceTree = "<group>"; };
+		981BDAC91DB7D0F8008A6155 /* BHEVoronoiCellTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEVoronoiCellTower.m; sourceTree = "<group>"; };
+		981BDACD1DB7D1FF008A6155 /* BHEUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEUtilities.m; sourceTree = "<group>"; };
+		981BDACF1DB7D215008A6155 /* BHEUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHEUtilities.h; sourceTree = "<group>"; };
+		981BDAD11DB7D32D008A6155 /* MKPolygon+MKPolygon_BHEExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKPolygon+MKPolygon_BHEExtensions.h"; sourceTree = "<group>"; };
+		981BDAD21DB7D36A008A6155 /* MKPolygon+MKPolygon_BHEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKPolygon+MKPolygon_BHEExtensions.m"; sourceTree = "<group>"; };
+		981BDAD41DB7D41D008A6155 /* BHEConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHEConstants.h; sourceTree = "<group>"; };
+		981BDAD51DB7D4E8008A6155 /* BHEVoronoiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEVoronoiCell.h; sourceTree = "<group>"; };
+		981BDAD61DB7D4E8008A6155 /* BHEVoronoiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEVoronoiCell.m; sourceTree = "<group>"; };
+		981BDAD91DB7D7CB008A6155 /* BHEVoronoiMapStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEVoronoiMapStore.h; sourceTree = "<group>"; };
+		981BDADA1DB7D7CB008A6155 /* BHEVoronoiMapStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEVoronoiMapStore.m; sourceTree = "<group>"; };
+		981BDADD1DB7D907008A6155 /* BHEEditMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEEditMapViewController.h; sourceTree = "<group>"; };
+		981BDADE1DB7D907008A6155 /* BHEEditMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEEditMapViewController.m; sourceTree = "<group>"; };
+		981BDAE11DB7DA25008A6155 /* BHECellTowerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHECellTowerAnnotation.h; sourceTree = "<group>"; };
+		981BDAE21DB7DA25008A6155 /* BHECellTowerAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHECellTowerAnnotation.m; sourceTree = "<group>"; };
+		981BDAE41DB7DBDB008A6155 /* BHEVoronoiMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEVoronoiMapViewController.h; sourceTree = "<group>"; };
+		981BDAE51DB7DBDB008A6155 /* BHEVoronoiMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEVoronoiMapViewController.m; sourceTree = "<group>"; };
+		98DA08D01DB7DEE8009C8422 /* deletebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletebutton.png; sourceTree = "<group>"; };
+		98DA08D11DB7DEE8009C8422 /* selected pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected pin.png"; sourceTree = "<group>"; };
 		A1DF411CB9BE2B9E81F99329 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C5672B98A007A6FD8F74FFB8 /* Pods-iosvoronoi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosvoronoi_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosvoronoi_Example/Pods-iosvoronoi_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3BB3A56548A2548C3EC8C45 /* Pods-iosvoronoi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosvoronoi_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosvoronoi_Example/Pods-iosvoronoi_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,11 +162,15 @@
 		6003F593195388D20070C39A /* Example for iosvoronoi */ = {
 			isa = PBXGroup;
 			children = (
+				981BDAD01DB7D31E008A6155 /* Categories */,
+				981BDACB1DB7D17E008A6155 /* Utilities */,
+				981BDAC11DB7CE38008A6155 /* View Controllers */,
+				981BDAD81DB7D634008A6155 /* Data Structures */,
+				981BDADC1DB7D8A6008A6155 /* Data Store */,
+				981BDAE01DB7DA00008A6155 /* Annotations */,
 				6003F59C195388D20070C39A /* BHEAppDelegate.h */,
 				6003F59D195388D20070C39A /* BHEAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* BHEViewController.h */,
-				6003F5A6195388D20070C39A /* BHEViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -145,6 +181,8 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98DA08D01DB7DEE8009C8422 /* deletebutton.png */,
+				98DA08D11DB7DEE8009C8422 /* selected pin.png */,
 				6003F595195388D20070C39A /* iosvoronoi-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -180,6 +218,69 @@
 				DB19AEABBA444839762DE432 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		981BDAC11DB7CE38008A6155 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				981BDAC21DB7CE77008A6155 /* BHEMapTableViewController.h */,
+				981BDAC31DB7CE77008A6155 /* BHEMapTableViewController.m */,
+				981BDADD1DB7D907008A6155 /* BHEEditMapViewController.h */,
+				981BDADE1DB7D907008A6155 /* BHEEditMapViewController.m */,
+				981BDAE41DB7DBDB008A6155 /* BHEVoronoiMapViewController.h */,
+				981BDAE51DB7DBDB008A6155 /* BHEVoronoiMapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		981BDACB1DB7D17E008A6155 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				981BDACF1DB7D215008A6155 /* BHEUtilities.h */,
+				981BDACD1DB7D1FF008A6155 /* BHEUtilities.m */,
+				981BDAD41DB7D41D008A6155 /* BHEConstants.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		981BDAD01DB7D31E008A6155 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				981BDAD11DB7D32D008A6155 /* MKPolygon+MKPolygon_BHEExtensions.h */,
+				981BDAD21DB7D36A008A6155 /* MKPolygon+MKPolygon_BHEExtensions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		981BDAD81DB7D634008A6155 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				981BDAC51DB7CF71008A6155 /* BHEVoronoiMap.h */,
+				981BDAC61DB7CF71008A6155 /* BHEVoronoiMap.m */,
+				981BDAC81DB7D0F8008A6155 /* BHEVoronoiCellTower.h */,
+				981BDAC91DB7D0F8008A6155 /* BHEVoronoiCellTower.m */,
+				981BDAD51DB7D4E8008A6155 /* BHEVoronoiCell.h */,
+				981BDAD61DB7D4E8008A6155 /* BHEVoronoiCell.m */,
+			);
+			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		981BDADC1DB7D8A6008A6155 /* Data Store */ = {
+			isa = PBXGroup;
+			children = (
+				981BDAD91DB7D7CB008A6155 /* BHEVoronoiMapStore.h */,
+				981BDADA1DB7D7CB008A6155 /* BHEVoronoiMapStore.m */,
+			);
+			name = "Data Store";
+			sourceTree = "<group>";
+		};
+		981BDAE01DB7DA00008A6155 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				981BDAE11DB7DA25008A6155 /* BHECellTowerAnnotation.h */,
+				981BDAE21DB7DA25008A6155 /* BHECellTowerAnnotation.m */,
+			);
+			name = Annotations;
 			sourceTree = "<group>";
 		};
 		EAA7BA56F2D43237A4AFC1DB /* Pods */ = {
@@ -278,7 +379,9 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				98DA08D21DB7DEE8009C8422 /* deletebutton.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				98DA08D31DB7DEE8009C8422 /* selected pin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,9 +493,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981BDAE61DB7DBDB008A6155 /* BHEVoronoiMapViewController.m in Sources */,
+				981BDAC41DB7CE77008A6155 /* BHEMapTableViewController.m in Sources */,
 				6003F59E195388D20070C39A /* BHEAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* BHEViewController.m in Sources */,
+				981BDACE1DB7D1FF008A6155 /* BHEUtilities.m in Sources */,
+				981BDADF1DB7D907008A6155 /* BHEEditMapViewController.m in Sources */,
+				981BDADB1DB7D7CB008A6155 /* BHEVoronoiMapStore.m in Sources */,
+				981BDACA1DB7D0F8008A6155 /* BHEVoronoiCellTower.m in Sources */,
+				981BDAE31DB7DA25008A6155 /* BHECellTowerAnnotation.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				981BDAC71DB7CF71008A6155 /* BHEVoronoiMap.m in Sources */,
+				981BDAD71DB7D4E8008A6155 /* BHEVoronoiCell.m in Sources */,
+				981BDAD31DB7D36A008A6155 /* MKPolygon+MKPolygon_BHEExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

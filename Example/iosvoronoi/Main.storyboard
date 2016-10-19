@@ -1,27 +1,177 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EkE-x5-ucM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="wQg-tq-qST">
+        <!--My Maps-->
+        <scene sceneID="jjx-Yw-iXW">
             <objects>
-                <viewController id="whP-gf-Uak" customClass="BHEViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                <tableViewController id="D1E-qr-vJJ" customClass="BHEMapTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TWg-Sh-svu">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MapCell" textLabel="wgr-iN-eTJ" detailTextLabel="7jC-kU-955" style="IBUITableViewCellStyleSubtitle" id="mtg-oc-O7l">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mtg-oc-O7l" id="umn-h0-qqJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wgr-iN-eTJ">
+                                            <rect key="frame" x="15" y="5" width="32" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7jC-kU-955">
+                                            <rect key="frame" x="15" y="25" width="41" height="14"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="KFi-KG-gGh" kind="show" identifier="VoronoiMapSegue" id="UW9-EA-W0k">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="D1E-qr-vJJ" id="0vg-TW-zOX"/>
+                            <outlet property="delegate" destination="D1E-qr-vJJ" id="LTv-Gp-BUW"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="My Maps" id="vK3-Qn-hd4">
+                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="edit" id="2JQ-qy-7cg"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8mn-x2-aMN">
+                            <connections>
+                                <segue destination="DhB-F8-Pqu" kind="show" identifier="NewMapSegue" id="uhH-vj-JJe">
+                                    <nil key="action"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nF7-3H-wOi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="736" y="651"/>
+        </scene>
+        <!--Voronoi Tesselation Map-->
+        <scene sceneID="Tk9-h8-wrk">
+            <objects>
+                <viewController id="KFi-KG-gGh" customClass="BHEVoronoiMapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uFc-CI-JVS"/>
+                        <viewControllerLayoutGuide type="bottom" id="tYX-wh-Uab"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lP6-40-6SQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cj2-BU-pUw">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cj2-BU-pUw" firstAttribute="leading" secondItem="lP6-40-6SQ" secondAttribute="leading" id="Yhk-jA-a5v"/>
+                            <constraint firstAttribute="trailing" secondItem="cj2-BU-pUw" secondAttribute="trailing" id="boo-tA-r6U"/>
+                            <constraint firstItem="tYX-wh-Uab" firstAttribute="top" secondItem="cj2-BU-pUw" secondAttribute="bottom" id="hxD-8L-ZZL"/>
+                            <constraint firstItem="cj2-BU-pUw" firstAttribute="top" secondItem="uFc-CI-JVS" secondAttribute="bottom" id="n0b-e9-JXw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Voronoi Tesselation Map" id="ecF-Ag-DXn">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="kyq-wf-aeg">
+                            <connections>
+                                <action selector="done:" destination="KFi-KG-gGh" id="IAN-pt-mAT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="cj2-BU-pUw" id="hkg-yv-ArJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="epb-bC-hNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1568" y="-27"/>
+        </scene>
+        <!--Edit Map-->
+        <scene sceneID="EQZ-8t-WQu">
+            <objects>
+                <viewController id="DhB-F8-Pqu" customClass="BHEEditMapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jnV-BW-EvM"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Zn-MZ-Edp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lpx-18-hpY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nbz-i1-1Yz" userLabel="Title Field">
+                                <rect key="frame" x="184" y="117" width="396" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voronoi Map Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGR-nz-sv4">
+                                <rect key="frame" x="25" y="121" width="151" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Nbz-i1-1Yz" secondAttribute="trailing" id="gJD-SO-rjf"/>
+                            <constraint firstItem="Nbz-i1-1Yz" firstAttribute="centerY" secondItem="cGR-nz-sv4" secondAttribute="centerY" id="jLv-rz-yrM"/>
+                            <constraint firstItem="cGR-nz-sv4" firstAttribute="leading" secondItem="Lpx-18-hpY" secondAttribute="leadingMargin" constant="5" id="luK-3u-Ee7"/>
+                            <constraint firstItem="Nbz-i1-1Yz" firstAttribute="leading" secondItem="cGR-nz-sv4" secondAttribute="trailing" constant="8" id="qAv-Wa-XgB"/>
+                            <constraint firstItem="cGR-nz-sv4" firstAttribute="top" secondItem="jnV-BW-EvM" secondAttribute="bottom" constant="57" id="wK7-zK-xHO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Map" id="GI8-Xa-VGk">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="BnV-zb-Ocu">
+                            <connections>
+                                <action selector="cancel:" destination="DhB-F8-Pqu" id="sdm-Ar-OU8"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="uJc-N7-dIc">
+                            <connections>
+                                <action selector="save:" destination="DhB-F8-Pqu" id="xq1-9c-Pra"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="titleField" destination="Nbz-i1-1Yz" id="i2g-Ap-PLH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nja-21-vBh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1352" y="1518"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XB9-JE-auB">
+            <objects>
+                <navigationController id="EkE-x5-ucM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bhb-Xd-D5T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="D1E-qr-vJJ" kind="relationship" relationship="rootViewController" id="c7A-sW-8bn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YI3-BQ-Aw1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="651"/>
         </scene>
     </scenes>
 </document>
