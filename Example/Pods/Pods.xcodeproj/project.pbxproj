@@ -85,6 +85,32 @@
 		918E06480F28F27361B19D19432F8538 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01F350337B25F09061F55C2252CBD6 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 393405584126BC701B16CB695FBEC1B0 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		94C47C87E397972CE98F75929F3B706C /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4D33F041C8104408EC5CD85F30D247 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98F718841DB7CC3B00271691 /* Beachsection.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F7186A1DB7CC3B00271691 /* Beachsection.h */; };
+		98F718851DB7CC3B00271691 /* Beachsection.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7186B1DB7CC3B00271691 /* Beachsection.m */; };
+		98F718861DB7CC3B00271691 /* Cell.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F7186C1DB7CC3B00271691 /* Cell.h */; };
+		98F718871DB7CC3B00271691 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7186D1DB7CC3B00271691 /* Cell.m */; };
+		98F718881DB7CC3B00271691 /* CircleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F7186E1DB7CC3B00271691 /* CircleEvent.h */; };
+		98F718891DB7CC3B00271691 /* CircleEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7186F1DB7CC3B00271691 /* CircleEvent.m */; };
+		98F7188A1DB7CC3B00271691 /* ClayPathMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F718701DB7CC3B00271691 /* ClayPathMaker.h */; };
+		98F7188B1DB7CC3B00271691 /* ClayPathMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F718711DB7CC3B00271691 /* ClayPathMaker.m */; };
+		98F7188C1DB7CC3B00271691 /* ClayRelaxer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F718721DB7CC3B00271691 /* ClayRelaxer.h */; };
+		98F7188D1DB7CC3B00271691 /* ClayRelaxer.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F718731DB7CC3B00271691 /* ClayRelaxer.m */; };
+		98F7188E1DB7CC3B00271691 /* Edge.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F718741DB7CC3B00271691 /* Edge.h */; };
+		98F7188F1DB7CC3B00271691 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F718751DB7CC3B00271691 /* Edge.m */; };
+		98F718901DB7CC3B00271691 /* Halfedge.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F718761DB7CC3B00271691 /* Halfedge.h */; };
+		98F718911DB7CC3B00271691 /* Halfedge.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F718771DB7CC3B00271691 /* Halfedge.m */; };
+		98F718921DB7CC3B00271691 /* RBTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F718781DB7CC3B00271691 /* RBTree.h */; };
+		98F718931DB7CC3B00271691 /* RBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F718791DB7CC3B00271691 /* RBTree.m */; };
+		98F718941DB7CC3B00271691 /* Site.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F7187A1DB7CC3B00271691 /* Site.h */; };
+		98F718951DB7CC3B00271691 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7187B1DB7CC3B00271691 /* Site.m */; };
+		98F718961DB7CC3B00271691 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F7187C1DB7CC3B00271691 /* Vertex.h */; };
+		98F718971DB7CC3B00271691 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7187D1DB7CC3B00271691 /* Vertex.m */; };
+		98F718981DB7CC3B00271691 /* Voronoi.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F7187E1DB7CC3B00271691 /* Voronoi.h */; };
+		98F718991DB7CC3B00271691 /* Voronoi.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7187F1DB7CC3B00271691 /* Voronoi.m */; };
+		98F7189A1DB7CC3B00271691 /* VoronoiConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F718801DB7CC3B00271691 /* VoronoiConstants.h */; };
+		98F7189B1DB7CC3B00271691 /* VoronoiConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F718811DB7CC3B00271691 /* VoronoiConstants.m */; };
+		98F7189C1DB7CC3B00271691 /* VoronoiResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F718821DB7CC3B00271691 /* VoronoiResult.h */; };
+		98F7189D1DB7CC3B00271691 /* VoronoiResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F718831DB7CC3B00271691 /* VoronoiResult.m */; };
 		9B2E761A064459F77EA9870BEF03ACC3 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 124408F448490BCF39CC1C2AA5297197 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB9159FBA757600D3D4C0FF645F3911 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05564542683A1E240E5097EC7B86DC /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9C0E7EE662D89509BD3A418FD7547321 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D23EA9CCB1E421678FACAC3D02921A8 /* SPTCallSite.m */; };
@@ -98,7 +124,6 @@
 		BA12B131F10BCE3BE6E9A02FC908FE9D /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4506716AF52468B3550AD5824670F /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BC55C8365AEFF8217F6A567607754854 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = E8899DDCDB159906296A77EA9F670B8C /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BEFFE9FFE52E9A0833A7D2D8FB67EB4D /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACF80B5A24CE07B6C736EEF474E7E9C /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C6CD004D58D29C423B080EFB6594EE67 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E09642EBD0645F8F7B2D3123BB543790 /* ReplaceMe.m */; };
 		CB057DAD1383E8F3800747697C0A5D47 /* iosvoronoi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10489C53A4DC77FB73C93A772EEBA5E1 /* iosvoronoi-dummy.m */; };
 		CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4CBA4D2825ED03DE841CB750862190 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CF2758D586C6D662D4DC1CE1167D7D04 /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DAACC7B2EAAA76EAB129F3A5D74DDC18 /* SPTExampleGroup.m */; };
@@ -233,6 +258,32 @@
 		93B613869003A3D21F03ECEADC589822 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		9481427DF2902DFFCDC09936E3C52C6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		983F42157C09B24C95033E6A987BBF22 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
+		98F7186A1DB7CC3B00271691 /* Beachsection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beachsection.h; sourceTree = "<group>"; };
+		98F7186B1DB7CC3B00271691 /* Beachsection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beachsection.m; sourceTree = "<group>"; };
+		98F7186C1DB7CC3B00271691 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		98F7186D1DB7CC3B00271691 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		98F7186E1DB7CC3B00271691 /* CircleEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleEvent.h; sourceTree = "<group>"; };
+		98F7186F1DB7CC3B00271691 /* CircleEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleEvent.m; sourceTree = "<group>"; };
+		98F718701DB7CC3B00271691 /* ClayPathMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClayPathMaker.h; sourceTree = "<group>"; };
+		98F718711DB7CC3B00271691 /* ClayPathMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClayPathMaker.m; sourceTree = "<group>"; };
+		98F718721DB7CC3B00271691 /* ClayRelaxer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClayRelaxer.h; sourceTree = "<group>"; };
+		98F718731DB7CC3B00271691 /* ClayRelaxer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClayRelaxer.m; sourceTree = "<group>"; };
+		98F718741DB7CC3B00271691 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		98F718751DB7CC3B00271691 /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		98F718761DB7CC3B00271691 /* Halfedge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Halfedge.h; sourceTree = "<group>"; };
+		98F718771DB7CC3B00271691 /* Halfedge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Halfedge.m; sourceTree = "<group>"; };
+		98F718781DB7CC3B00271691 /* RBTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTree.h; sourceTree = "<group>"; };
+		98F718791DB7CC3B00271691 /* RBTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTree.m; sourceTree = "<group>"; };
+		98F7187A1DB7CC3B00271691 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Site.h; sourceTree = "<group>"; };
+		98F7187B1DB7CC3B00271691 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Site.m; sourceTree = "<group>"; };
+		98F7187C1DB7CC3B00271691 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		98F7187D1DB7CC3B00271691 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		98F7187E1DB7CC3B00271691 /* Voronoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voronoi.h; sourceTree = "<group>"; };
+		98F7187F1DB7CC3B00271691 /* Voronoi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voronoi.m; sourceTree = "<group>"; };
+		98F718801DB7CC3B00271691 /* VoronoiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiConstants.h; sourceTree = "<group>"; };
+		98F718811DB7CC3B00271691 /* VoronoiConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiConstants.m; sourceTree = "<group>"; };
+		98F718821DB7CC3B00271691 /* VoronoiResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiResult.h; sourceTree = "<group>"; };
+		98F718831DB7CC3B00271691 /* VoronoiResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiResult.m; sourceTree = "<group>"; };
 		998914C0B5A68C9A01E1596E02564482 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EF2564A5B3BCF5B727F63C626FF9935 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		9F4DE1CEE5D9F0D5FD4E78084DE46721 /* iosvoronoi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iosvoronoi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -280,7 +331,6 @@
 		DEB33EA3C18646B1DA6384B7C356C458 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		DF4D33F041C8104408EC5CD85F30D247 /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		DF5966F05CD1198629BF447653497239 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
-		E09642EBD0645F8F7B2D3123BB543790 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		E156AF9341293266845AA8774ED518EA /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		E4286F5B187014B00F18766782F7018D /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		E5D17E786DF26A257B9C5BCB45476B32 /* Pods-iosvoronoi_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosvoronoi_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -552,7 +602,32 @@
 		898A4D9199DCD921C22629BCEBD96DA4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E09642EBD0645F8F7B2D3123BB543790 /* ReplaceMe.m */,
+				98F7186A1DB7CC3B00271691 /* Beachsection.h */,
+				98F7186B1DB7CC3B00271691 /* Beachsection.m */,
+				98F7186C1DB7CC3B00271691 /* Cell.h */,
+				98F7186D1DB7CC3B00271691 /* Cell.m */,
+				98F7186E1DB7CC3B00271691 /* CircleEvent.h */,
+				98F7186F1DB7CC3B00271691 /* CircleEvent.m */,
+				98F718701DB7CC3B00271691 /* ClayPathMaker.h */,
+				98F718711DB7CC3B00271691 /* ClayPathMaker.m */,
+				98F718721DB7CC3B00271691 /* ClayRelaxer.h */,
+				98F718731DB7CC3B00271691 /* ClayRelaxer.m */,
+				98F718741DB7CC3B00271691 /* Edge.h */,
+				98F718751DB7CC3B00271691 /* Edge.m */,
+				98F718761DB7CC3B00271691 /* Halfedge.h */,
+				98F718771DB7CC3B00271691 /* Halfedge.m */,
+				98F718781DB7CC3B00271691 /* RBTree.h */,
+				98F718791DB7CC3B00271691 /* RBTree.m */,
+				98F7187A1DB7CC3B00271691 /* Site.h */,
+				98F7187B1DB7CC3B00271691 /* Site.m */,
+				98F7187C1DB7CC3B00271691 /* Vertex.h */,
+				98F7187D1DB7CC3B00271691 /* Vertex.m */,
+				98F7187E1DB7CC3B00271691 /* Voronoi.h */,
+				98F7187F1DB7CC3B00271691 /* Voronoi.m */,
+				98F718801DB7CC3B00271691 /* VoronoiConstants.h */,
+				98F718811DB7CC3B00271691 /* VoronoiConstants.m */,
+				98F718821DB7CC3B00271691 /* VoronoiResult.h */,
+				98F718831DB7CC3B00271691 /* VoronoiResult.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -682,11 +757,16 @@
 				2E14619153A453BB8DF389FB6EA147BE /* ExpectaObject.h in Headers */,
 				AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */,
 				67459AD239EF669A365519E06B45DCFE /* EXPExpect.h in Headers */,
+				98F718881DB7CC3B00271691 /* CircleEvent.h in Headers */,
 				6E1D978790705E137FDE439AA68DD3AA /* EXPFloatTuple.h in Headers */,
 				65BC31095CCDFC80CBF6BBA843751F23 /* EXPMatcher.h in Headers */,
+				98F718861DB7CC3B00271691 /* Cell.h in Headers */,
+				98F718961DB7CC3B00271691 /* Vertex.h in Headers */,
+				98F718841DB7CC3B00271691 /* Beachsection.h in Headers */,
 				8C8C1B0D83FE6A4352F15154DB16372C /* EXPMatcherHelpers.h in Headers */,
 				AF1F46668D4591602887998C6E9C10AD /* EXPMatchers+beCloseTo.h in Headers */,
 				F41209A94070904A00BDF24ACB6336B6 /* EXPMatchers+beFalsy.h in Headers */,
+				98F7189A1DB7CC3B00271691 /* VoronoiConstants.h in Headers */,
 				FD2D4497BC41412128C2D87C1BDE7398 /* EXPMatchers+beginWith.h in Headers */,
 				6EFC63A5CED45BB39FC79D87F2C47D6B /* EXPMatchers+beGreaterThan.h in Headers */,
 				372F7A9CCE59CE86316CF436F832A3FC /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */,
@@ -696,15 +776,21 @@
 				79558B1F97ABE4AB8942DC18BEBD4B82 /* EXPMatchers+beKindOf.h in Headers */,
 				0D16B556212D317A0D4FEB71E102E207 /* EXPMatchers+beLessThan.h in Headers */,
 				37A2D0F8493469EF2495FC689440F079 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
+				98F718981DB7CC3B00271691 /* Voronoi.h in Headers */,
 				E735386085CE344F6A01178CF4763852 /* EXPMatchers+beNil.h in Headers */,
 				397B320B7C59C168CC5B62E18ED8DEA0 /* EXPMatchers+beSubclassOf.h in Headers */,
+				98F7189C1DB7CC3B00271691 /* VoronoiResult.h in Headers */,
+				98F7188A1DB7CC3B00271691 /* ClayPathMaker.h in Headers */,
 				76CCABE79C04444450153424D7CE1DC1 /* EXPMatchers+beSupersetOf.h in Headers */,
+				98F718941DB7CC3B00271691 /* Site.h in Headers */,
 				85EB2F216487CB2E8F3FCCFBC4D69912 /* EXPMatchers+beTruthy.h in Headers */,
 				F0DDF02A078B917997FF025BB33BB842 /* EXPMatchers+conformTo.h in Headers */,
 				3C2700C7DAA15C6AF84A595865C42F4D /* EXPMatchers+contain.h in Headers */,
 				1A1AB2EC52323C5EA28DAA99F1E1A90D /* EXPMatchers+endWith.h in Headers */,
 				0F94F5B0ABB3252B9275B7C129EC7A26 /* EXPMatchers+equal.h in Headers */,
+				98F718921DB7CC3B00271691 /* RBTree.h in Headers */,
 				F75CB2A727F678C9A848A3A11EA7979B /* EXPMatchers+haveCountOf.h in Headers */,
+				98F7188E1DB7CC3B00271691 /* Edge.h in Headers */,
 				2916A0606136A9DC67F2463AB230868B /* EXPMatchers+match.h in Headers */,
 				9B2E761A064459F77EA9870BEF03ACC3 /* EXPMatchers+postNotification.h in Headers */,
 				46137F5CC368BF38BAF0D0AF81DD8FFE /* EXPMatchers+raise.h in Headers */,
@@ -712,6 +798,8 @@
 				260BC7EED9289AF321A6F791964CE472 /* EXPMatchers+respondTo.h in Headers */,
 				85E31076D5530AEEB45ACF16B2B8A983 /* EXPMatchers.h in Headers */,
 				51DDDB0FB4899757CF6A826B531B940D /* EXPUnsupportedObject.h in Headers */,
+				98F718901DB7CC3B00271691 /* Halfedge.h in Headers */,
+				98F7188C1DB7CC3B00271691 /* ClayRelaxer.h in Headers */,
 				7B223B4E6EF14BA12DA113F7EE10B96C /* NSObject+Expecta.h in Headers */,
 				471FD4F68E27AB26FA2AEBB8B245CEE4 /* NSValue+Expecta.h in Headers */,
 			);
@@ -878,26 +966,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2D4A621D3DA971A474776AF36BB073 /* EXPBlockDefinedMatcher.m in Sources */,
+				98F718851DB7CC3B00271691 /* Beachsection.m in Sources */,
 				BC55C8365AEFF8217F6A567607754854 /* EXPDoubleTuple.m in Sources */,
 				204D694B03BFF3B244A6AB73FACFFC43 /* Expecta-dummy.m in Sources */,
 				94C47C87E397972CE98F75929F3B706C /* ExpectaObject.m in Sources */,
+				98F7189D1DB7CC3B00271691 /* VoronoiResult.m in Sources */,
 				4BBCBB9D8EF0B241A4A4FE4982985481 /* ExpectaSupport.m in Sources */,
 				805E425BBEF7A6133E32E1D30A073010 /* EXPExpect.m in Sources */,
 				CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */,
 				201BF9C605852822CA5A65ADE282A310 /* EXPMatcherHelpers.m in Sources */,
 				BA12B131F10BCE3BE6E9A02FC908FE9D /* EXPMatchers+beCloseTo.m in Sources */,
+				98F7188B1DB7CC3B00271691 /* ClayPathMaker.m in Sources */,
 				17572374B2AE183C6347C41E8DF8E579 /* EXPMatchers+beFalsy.m in Sources */,
+				98F7188D1DB7CC3B00271691 /* ClayRelaxer.m in Sources */,
 				F12D57414A73406831CC032A7170DBFF /* EXPMatchers+beginWith.m in Sources */,
 				1312A7D381C51428CF481E33E3D37901 /* EXPMatchers+beGreaterThan.m in Sources */,
 				1B0389CD88AA949B34DC7269030FEC6F /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
 				66A27898E989A3FA5C15AA671C4536F0 /* EXPMatchers+beIdenticalTo.m in Sources */,
 				76D337327C10A7555447B69AA1562647 /* EXPMatchers+beInstanceOf.m in Sources */,
+				98F718991DB7CC3B00271691 /* Voronoi.m in Sources */,
+				98F7188F1DB7CC3B00271691 /* Edge.m in Sources */,
 				9BB9159FBA757600D3D4C0FF645F3911 /* EXPMatchers+beInTheRangeOf.m in Sources */,
 				87FD5F0F682CDEB6A348CA448889E3EA /* EXPMatchers+beKindOf.m in Sources */,
 				0EBFA5FBE4953A83B677CE2A75746761 /* EXPMatchers+beLessThan.m in Sources */,
 				D83677C54D2226C67886A525B0B46FBE /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
 				2C0A8737FDB9B9C6A6BDF437FD11334C /* EXPMatchers+beNil.m in Sources */,
 				BEFFE9FFE52E9A0833A7D2D8FB67EB4D /* EXPMatchers+beSubclassOf.m in Sources */,
+				98F718891DB7CC3B00271691 /* CircleEvent.m in Sources */,
+				98F718931DB7CC3B00271691 /* RBTree.m in Sources */,
 				6F278423C8AE1DA47F35E374BB5B91EC /* EXPMatchers+beSupersetOf.m in Sources */,
 				0C6FF91EB1F0391ED75DC72D31D159EF /* EXPMatchers+beTruthy.m in Sources */,
 				DB30F82FB1BE083D9471B965FB500CA2 /* EXPMatchers+conformTo.m in Sources */,
@@ -905,13 +1001,18 @@
 				918E06480F28F27361B19D19432F8538 /* EXPMatchers+endWith.m in Sources */,
 				1AB3304B6884F626BC54150AC7565E18 /* EXPMatchers+equal.m in Sources */,
 				403292D82DA62291204BF59524BC4EDB /* EXPMatchers+haveCountOf.m in Sources */,
+				98F718951DB7CC3B00271691 /* Site.m in Sources */,
 				FC45858927D3B6A0F922C4B697B04A38 /* EXPMatchers+match.m in Sources */,
 				931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */,
+				98F718971DB7CC3B00271691 /* Vertex.m in Sources */,
+				98F718871DB7CC3B00271691 /* Cell.m in Sources */,
 				2CFE2898496C1C7096DB8DA43AF19103 /* EXPMatchers+raise.m in Sources */,
 				FE8E34356D24F6759A8B010ED2F5707B /* EXPMatchers+raiseWithReason.m in Sources */,
 				E0A077DFB064B79685B810CCEFB2F1EF /* EXPMatchers+respondTo.m in Sources */,
+				98F7189B1DB7CC3B00271691 /* VoronoiConstants.m in Sources */,
 				EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */,
 				B84431CF8C64F363A334AA7089F6C134 /* NSValue+Expecta.m in Sources */,
+				98F718911DB7CC3B00271691 /* Halfedge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,7 +1021,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB057DAD1383E8F3800747697C0A5D47 /* iosvoronoi-dummy.m in Sources */,
-				C6CD004D58D29C423B080EFB6594EE67 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
