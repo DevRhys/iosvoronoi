@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'iosvoronoi_Example' do
+  pod 'iosvoronoi', :path => '../'
+
+  target 'iosvoronoi_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
