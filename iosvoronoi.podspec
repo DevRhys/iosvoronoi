@@ -1,51 +1,33 @@
-#
-# Be sure to run `pod lib lint iosvoronoi.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'iosvoronoi'
   s.version          = '0.1.0'
   s.summary          = 'A library for performing 2D voronoi tesselations in Objective C for iOS apps.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-This is an iOS friendly, Objective-C version of Fortune's Algorithm based on Clay Heaton's Objective-C port. Using these classes, you can create Voronoi tessellations from sets of points in a cartesian plane. The library provides no graphical representation of the tessellation - it is merely an engine.
+                                This is an iOS friendly, Objective-C version of Fortune's Algorithm based on Clay Heaton's Objective-C port. Using these classes, you can create Voronoi tessellations from sets of points in a cartesian plane. The library provides no graphical representation of the tessellation - it is merely an engine.
 
-There are classes for fundamental Voronoi concepts (such as Cells, Sites, Edges, Vertices, etc) as well as classes related to Fortune's Algorithm (BeachSection, CircleEvent, etc).
+                                There are classes for fundamental Voronoi concepts (such as Cells, Sites, Edges, Vertices, etc) as well as classes related to Fortune's Algorithm (BeachSection, CircleEvent, etc).
 
-Genealogy:
+                                Genealogy:
 
-- Steven Fortune's initial C implementation can be found at his Bell Labs home page: http://ect.bell-labs.com/who/sjf/
-- Raymond Hill's JavaScript implementation of Fortune's algorithm can be found here: https://github.com/gorhill/Javascript-Voronoi
-- Clay Heaton's Objective-C port of Raymond Hill's implementation can be found here: https://github.com/clayheaton/objcvoronoi
-- A detailed explanation of Fortune's algorithm can be found at Wikipedia: https://en.wikipedia.org/wiki/Fortune%27s_algorithm
+                                - Steven Fortune's initial C implementation can be found at his Bell Labs home page: http://ect.bell-labs.com/who/sjf/
+                                - Raymond Hill's JavaScript implementation of Fortune's algorithm can be found here: https://github.com/gorhill/Javascript-Voronoi
+                                - Clay Heaton's Objective-C port of Raymond Hill's implementation can be found here: https://github.com/clayheaton/objcvoronoi
+                                - A detailed explanation of Fortune's algorithm can be found at Wikipedia: https://en.wikipedia.org/wiki/Fortune%27s_algorithm
                        DESC
 
   s.homepage         = 'https://github.com/DevRhys/iosvoronoi'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rhys D. Jones' => 'rhys@digitalcicadas.com' }
   s.source           = { :git => 'https://github.com/DevRhys/iosvoronoi.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/'
-
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'iosvoronoi/Classes/**/*'
-  
+  s.source_files = 'Pod/Classes/**/*'
+
   # s.resource_bundles = {
   #   'iosvoronoi' => ['iosvoronoi/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
