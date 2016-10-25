@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'iosvoronoi'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A library for performing 2D voronoi tesselations in Objective C for iOS apps.'
   s.description      = <<-DESC
                                 This is an iOS friendly, Objective-C version of Fortune's Algorithm based on Clay Heaton's Objective-C port. Using these classes, you can create Voronoi tessellations from sets of points in a cartesian plane. The library provides no graphical representation of the tessellation - it is merely an engine.
