@@ -21,13 +21,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/DevRhys/iosvoronoi.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/**/*.{h,m}'
+  s.source_files = 'iosvoronoi/Classes/**/*.{h,m}'
 
   # s.resource_bundles = {
   #   'iosvoronoi' => ['iosvoronoi/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
